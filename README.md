@@ -1,14 +1,14 @@
-## Personal Portfolio
+# Personal Portfolio
 A responsive, accessible personal portfolio built with HTML, CSS, and JavaScript. The site highlights my background, projects, and preferred development tools while following core web accessibility (a11y) practices to support disabled users.
 
-# Features
+## Features
 - Semantic HTML structure for improved accessibility and SEO
 - Color contrast that meets WCAG guidelines
 - Responsive design for mobile, tablet, and desktop
 - Smooth scrolling and basic JavaScript interactivity
 
-## Sections
-# About Me
+# Sections
+## About Me
 
 An overview of who I am, my background, and what I’m currently learning or working on. This section introduces my interests in web development and my long‑term career goals.
 
@@ -22,7 +22,7 @@ A showcase of selected projects, including:
 
 Each project card is labeled with accessible headings and descriptive link text so screen‑reader users understand where each link leads.
 
-# Tech Stack & Dev Tools
+## Tech Stack & Dev Tools
 A list of the tools and technologies I use regularly, such as:
 
 - HTML5
@@ -31,14 +31,14 @@ A list of the tools and technologies I use regularly, such as:
 - Git, GitHub
 - VS Code (with extensions for formatting and linting)
 
-# Contact
+## Contact
 - Portfolio:
 - Email: jessicakostyk@outlook.com
 - <a href="https://www.linkedin.com/in/jessica-k-240017113/">LinkedIn</a>
 - <a href="https://github.com/bytemedarling">GitHub</a>
 Feel free to reach out for collaboration, opportunities, or feedback.
 
-# Accessibility
+## Accessibility
 This portfolio includes several accessibility considerations:
 
 - Semantic elements (header, main, nav, section, footer, etc.)
@@ -49,5 +49,5 @@ This portfolio includes several accessibility considerations:
 
 I plan to iterate on accessibility as I learn more and test with tools like screen readers and automated checkers.
 
-# License
+## License
 This project is intended as my personal portfolio. You are welcome to reference the structure and ideas for learning or inspiration.
