@@ -3,9 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----------- Title ----------->
     <title>Personal Portfolio</title>
+
+    <!----------- Added Fonts ----------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+
+    <!----------- CSS Link ----------->
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    
+<body class="retro">
+    <header class="header">
+        <h1 class="logo">Jessica Kostyk</h1>
+        <nav class="navbar">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#tools">Dev Tools</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm Jessica, a web developer who loves building engaging, user-friendly websites and interfaces. With a creative background and a sharp eye for detail, I focus on crafting digital experiences that are both visually striking and highly functional. When I'm not coding, you'll usually find me at art shows, exploring new technologies, or experimenting with new recipes in the kitchen. I started my career in sales, where I discovered how much I enjoy the intersection of people, creativity, and technology. Moving into full-stack web development lets me combine that experience with my technical skills and curiosity to design thoughtful, accessible products.</p>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <h3>Project One</h3>
+                    <p>A responsive e-commerce website built with React and Node.js.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Project Two</h3>
+                    <p>A personal blog platform developed using Django and PostgreSQL.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Project Three</h3>
+                    <p>A mobile app for task management created with Flutter.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="tools" class="tools">
+            <h2>Dev Tools</h2>
+            <ul>
+                <li>Visual Studio Code</li>
+                <li>Git & GitHub</li>
+                <li>JavaScript</li>
+                <li>Postman</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>You can reach me at:</p>
+            <ul>
+                <li>Email:
+    </main>
+    <!---------- JavaScript Link ---------->    
+    <script src="js/script.js"></script>    
 </body>
 </html>
