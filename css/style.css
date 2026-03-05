@@ -31,3 +31,29 @@ body.retro {
   background-color: var(--panel);
   box-shadow: var(--shadow-soft);
 }
+
+/* Hide button on big screens, show on small screens */
+.menu-button {
+  display: none;
+}
+
+/* Start with nav visible on big screens */
+.main-nav {
+  display: flex;   /* or inline-block, whatever you use now */
+}
+
+/* Mobile: show button, hide nav until JS opens it */
+@media (max-width: 700px) {
+  .menu-button {
+    display: block;
+  }
+
+  .main-nav {
+    display: none;
+    flex-direction: column;  /* vertical links on mobile */
+  }
+
+  .main-nav.open {
+    display: flex;          /* show when "open" class is added */
+  }
+}
