@@ -9,8 +9,8 @@
   --border-subtle: #1f2937;
   --shadow-soft: 0 12px 30px rgba(0, 0, 0, 0.4);
   --radius-lg: 12px;
-  --font-body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-display: "Bungee", sans-serif;
+  --font-body: Bungee, Old Standard TT, sans-serif;
+  --font-display: Bungee, sans-serif;
 }
 
 body.retro {
