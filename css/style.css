@@ -12,4 +12,18 @@
   bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
+  padding: 12px 40px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #ff7acb, #ff4fa3);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(255, 100, 180, 0.6);
+}
+
+.enter-button:hover {
+  transform: translateX(-50%) scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 100, 180, 0.8);
 }
