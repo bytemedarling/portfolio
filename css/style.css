@@ -14,10 +14,11 @@
   left: 0;
   width: 100%;
   padding: 20px;
+  padding-right: 20px;;
   display: flex;
   justify-content: flex-end; /* pushes hamburger to the right */
   align-items: center;
-  z-index: 10; /* ensures it sits above the hero */
+  z-index: 10;
 }
 
 .menu-button {
