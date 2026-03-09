@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
+    <!----------- CSS Link ----------->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header class="header">
+        <h1 class="logo"></h1>
+
+    <!-- Hamburger Button -->
+        <div class="menu-wrapper">
+            <button class="menu-button" id="menuButton">☰</button>
+        </div>
+
+    <!-- Navigation Menu (hidden until toggled) -->
+        <nav class="main-nav" id="mainNav">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#tools">Dev Tools</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
      <!----------- Contact Section ----------->
     <section id="contact" class="contact">
         <h2>Contact Me</h2>
@@ -16,7 +34,7 @@
             <li><a href="https://github.com/bytemedarling">GitHub</a></li>
         </ul>
     </section>
-    
+
 <!---------- JavaScript Link ---------->
     <script src="js/script.js"></script>
 </body>
