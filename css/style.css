@@ -64,9 +64,5 @@
 
 .enter-button:hover {
   transform: translateX(-50%) scale(1.05);
-  box-shadow: 0 0 15px rgba(255, 100, 180, 0.8);
-}
-.enter-button:active {
-  transform: translateX(-50%) scale(0.95);
-  box-shadow: 0 0 5px rgba(100, 255, 115, 0.4);
+  box-shadow: 0 0 15px rgba(100, 255, 115, 0.4);
 }
