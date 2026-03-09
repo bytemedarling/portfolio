@@ -75,7 +75,7 @@
 }
 
 .enter-button:hover {
-  background: linear-gradient(135deg, #fff0ff, #c0ffff);
+  background: linear-gradient(135deg, #fff0ff, #c0ffe9);
   box-shadow: 0 0 15px #fff;
   transform: translateX(-50%) scale(1.05);
 }
