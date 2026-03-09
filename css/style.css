@@ -7,6 +7,44 @@
   position: relative;
 }
 
+/* Hamburger Menu */
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end; /* pushes hamburger to the right */
+  align-items: center;
+  z-index: 10; /* ensures it sits above the hero */
+}
+
+.menu-button {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  z-index: 11;
+}
+/* Hidden navigation menu */
+.main-nav {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 10px;
+  z-index: 20;
+}
+
+.main-nav.open {
+  display: flex;
+}
+
 .enter-button {
   position: absolute;
   bottom: 40px;
@@ -26,4 +64,8 @@
 .enter-button:hover {
   transform: translateX(-50%) scale(1.05);
   box-shadow: 0 0 15px rgba(255, 100, 180, 0.8);
+}
+.enter-button:active {
+  transform: translateX(-50%) scale(0.95);
+  box-shadow: 0 0 5px rgba(100, 255, 115, 0.4);
 }
