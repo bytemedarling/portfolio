@@ -1,6 +1,4 @@
-const menuButton = document.querySelector('.menu-button');
-const nav = document.querySelector('.main-nav');
-
-menuButton.addEventListener('click', () => {
-  nav.classList.toggle('open');
+/* Enter Button */
+document.getElementById("enterBtn").addEventListener("click", () => {
+  document.getElementById("about").scrollIntoView({ behavior: "smooth" });
 });

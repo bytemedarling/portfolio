@@ -1,68 +1,15 @@
-:root {
-  --bg: #0f172a;        /* deep navy */
-  --panel: #111827;     /* slightly lighter navy */
-  --accent-pink: #ff4fa3;
-  --accent-cyan: #4af2c5;
-  --accent-yellow: #fffb7d;
-  --text-main: #f9fafb;
-  --text-muted: #9ca3af;
-  --border-subtle: #1f2937;
-  --shadow-soft: 0 12px 30px rgba(0, 0, 0, 0.4);
-  --radius-lg: 12px;
-  --font-body: Bungee, Old Standard TT, sans-serif;
-  --font-display: Bungee, sans-serif;
+/* Hero Banner */
+.hero {
+  background-image: url(/Volumes/Seagate/codecademy/portfolio-project/images/pinkbanner.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
 }
 
-body.retro {
-  min-height: 100vh;
-  margin: 0;
-  font-family: var(--font-body);
-  color: var(--text-main);
-  background:
-    radial-gradient(circle at top left, rgba(255, 79, 163, 0.25), transparent 60%),
-    radial-gradient(circle at bottom right, rgba(74, 242, 197, 0.2), transparent 60%),
-    var(--bg);
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: var(--panel);
-  color: var(--text-muted);
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  background-color: var(--panel);
-  box-shadow: var(--shadow-soft);
-}
-
-/* Hide button on big screens, show on small screens */
-.menu-button {
-  display: none;
-}
-
-/* Start with nav visible on big screens */
-.main-nav {
-  display: flex;
-}
-
-/* Mobile: show button, hide nav until JS opens it */
-@media (max-width: 700px) {
-  .menu-button {
-    display: block;
-  }
-
-  .main-nav {
-    display: none;
-    flex-direction: column;  /* vertical links on mobile */
-    padding: 20px;
-  }
-
-  .main-nav.open {
-    display: flex;          /* show when "open" class is added */
-  }
+.enter-button {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
 }
