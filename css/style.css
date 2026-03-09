@@ -4,7 +4,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: auto;
   min-height: 100vh;
   padding: 0 20px;
   position: relative;
@@ -75,6 +75,8 @@
 }
 
 .enter-button:hover {
+  background: linear-gradient(135deg, #fff0ff, #c0ffff);
+  box-shadow: 0 0 15px #fff;
   transform: translateX(-50%) scale(1.05);
-  box-shadow: 0 0 15px rgba(18, 195, 36, 0.992);
 }
+
