@@ -30,7 +30,7 @@
 }
 
 .menu-wrapper {
-  margin-right: 80px;
+  margin-right: 70px;
 }
 
 .menu-button {
@@ -96,4 +96,5 @@ body.contact-page {
   text-decoration: none;
   max-width: 12.5rem;
   height: auto;
+  background-color: transparent;
 }
