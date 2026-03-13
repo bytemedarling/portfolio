@@ -232,15 +232,12 @@ body.contact-page {
 }
 
 
-/* MOBILE FIXES */
+/* Responsive */
 @media (max-width: 768px) {
-
-  /* Reduce giant body padding */
   body.contact-page {
     padding: 40px 20px;
   }
 
-  /* Stack layout */
   .contact-page .contact-wrapper {
     flex-direction: column;
     text-align: center;
