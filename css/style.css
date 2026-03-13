@@ -118,7 +118,9 @@ body.contact-page {
 
 .contact-wrapper {
   display: flex;
-  align-items: left;
+  justify-content: left;
+  align-items: flex-start;
+  gap: 2rem;
 }
 .contact-page .form h2 {
   text-align: center;
