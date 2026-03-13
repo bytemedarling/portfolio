@@ -110,7 +110,7 @@ body.contact-page {
   text-align: left;
   font-family: "Bungee", sans-serif;
 }
-
+/*
 .contact-page .form {
   max-width: 600px;
   margin: 2rem auto;
@@ -119,7 +119,7 @@ body.contact-page {
   border: 2px solid #fff;  border-radius: 10px;
   backdrop-filter: blur(6px);
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
-}
+} */ 
 
 .contact-page .contact-wrapper {
   display: flex;
@@ -199,4 +199,55 @@ body.contact-page {
   box-shadow: 0 0 10px #fff;
   background: linear-gradient(135deg, #fff0ff, #ed63cf);
 
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .contact-page .contact-wrapper {
+    gap: 2rem;
+    padding: 1.5rem;
+  }
+
+  .contact-page .contact-form {
+    max-width: 100%;
+  }
+} /* iPad Styling */
+
+@media (max-width: 768px) {
+  .contact-page .contact-wrapper {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  .contact-page .contact-info {
+    margin-bottom: 2rem;
+  }
+
+  .contact-page .contact-form {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .contact-page .contact-form button {
+    width: 100%;
+  }
+}
+
+/* ============================
+   SMALL MOBILE (iPhone SE)
+   ============================ */
+@media (max-width: 480px) {
+  .contact-page .contact-wrapper {
+    padding: 1rem;
+  }
+
+  .contact-page .contact-form {
+    padding: 1.25rem;
+  }
+
+  .contact-page .contact-form input,
+  .contact-page .contact-form textarea {
+    font-size: 0.95rem;
+  }
 }
