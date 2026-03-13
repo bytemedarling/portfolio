@@ -95,6 +95,16 @@ body.contact-page {
   padding: 160px;
 }
 
+.contact-page .header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact-page .header, h1 {
   text-align: center;
 }
