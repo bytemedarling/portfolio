@@ -128,23 +128,23 @@ body.contact-page {
   padding: 2rem;
 }
 
-.contact-page .form-wrapper {
+.contact-page .contact-form {
   flex: 1;
 }
 
-.contact-page .form h2 {
+.contact-page .contact-form h2 {
   text-align: center;
   margin-bottom: 1.5rem;
 }
 
-.contact-page .form label {
+.contact-page .contact-form label {
   display: block;
   margin-top: 1rem;
   font-weight: bold;
 }
 
-.contact-page .form input,
-.contact-page .form textarea {
+.contact-page .contact-form input,
+.contact-page .contact-form textarea {
   width: 100%;
   padding: 0.75rem;
   margin-top: 0.5rem;
@@ -153,7 +153,7 @@ body.contact-page {
   font-size: 1rem;
 }
 
-.contact-page .form button {
+.contact-page .contact-form button {
   margin-top: 1.5rem;
   padding: 0.75rem 1.5rem;
   width: 50%;
@@ -167,7 +167,7 @@ body.contact-page {
   text-align: center;
 }
 
-.contact-page .form button:hover {
+.contact-page .contact-form button:hover {
   transform: scale(1.03);
   box-shadow: 0 0 10px #fff;
   background: linear-gradient(135deg, #fff0ff, #ed63cf);
