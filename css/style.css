@@ -93,7 +93,7 @@ body.contact-page {
   background: linear-gradient(135deg, #f8d7ff, #c2e9fb, #d0f0c0);
 }
 
-.logo {
+.contact-page .logo {
   text-decoration: none;
   text-align: left;
   max-width: 12.5rem;
@@ -102,7 +102,7 @@ body.contact-page {
 }
 
 .contact-page .contact {
-  text-align: center;
+  text-align: left;
   font-family: 'Bungee', sans-serif;
 }
 
