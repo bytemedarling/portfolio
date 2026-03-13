@@ -93,7 +93,7 @@ body.contact-page {
   background: linear-gradient(135deg, #f8d7ff, #c2e9fb, #d0f0c0);
 }
 
-.content-page .header, h1 {
+.contact-page .header, h1 {
   text-align: center;
 }
 
@@ -120,7 +120,7 @@ body.contact-page {
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
 }
 
-.content-page .contact-wrapper {
+.contact-page .contact-wrapper {
   display: flex;
   justify-content: left;
   align-items: flex-start;
@@ -128,7 +128,7 @@ body.contact-page {
   padding: 2rem;
 }
 
-.content-page .form-wrapper {
+.contact-page .form-wrapper {
   flex: 1;
 }
 
