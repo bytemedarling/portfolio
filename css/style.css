@@ -81,14 +81,6 @@
   transform: translateX(-50%) scale(1.05);
 }
 
-.footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #333;
-  color: white;
-  position: relative;
-}
-
 /* ----- Contact Page ----- */
 body.contact-page {
   background: linear-gradient(135deg, #f8d7ff, #c2e9fb, #d0f0c0);
@@ -98,11 +90,19 @@ body.contact-page {
 .contact-page .header {
   position: absolute;
   top: 20px;
-  left: 20px;
-  right: 20px;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+   display: flex;
+  justify-content: space-between; /* logo left, hamburger right */
+  align-items: center;
+  z-index: 10;
+}
+
+.contact-page .header div {
+  flex: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .contact-page .header, h1 {
@@ -111,12 +111,22 @@ body.contact-page {
 
 .contact-page .logo {
   display: block;
-  margin-top: -5px;
   max-width: 25rem;
   width: 100%;
   height: auto;
-  margin: 0;
+  margin: 0 auto;
   }
+
+/* Hamburger button positioning */
+.contact-page .menu-wrapper {
+  margin: 0; 
+  display: flex;
+  align-items: center;
+}
+
+.contact-page .menu-button {
+  margin-top: -5px;
+}
 
 .contact-page .contact {
   text-align: left;
@@ -212,7 +222,7 @@ body.contact-page {
   background: linear-gradient(135deg, #fff0ff, #ed63cf);
 
 }
-
+/* Footer */
 .contact-page .footer {
   text-align: center;
   padding: 20px;
