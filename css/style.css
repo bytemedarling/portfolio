@@ -95,6 +95,7 @@ body.contact-page {
 
 .logo {
   text-decoration: none;
+  text-align: left;
   max-width: 12.5rem;
   height: auto;
   background-color: transparent;
