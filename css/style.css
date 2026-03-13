@@ -103,7 +103,7 @@ body.contact-page {
   justify-content: left;
   max-width: 12.5rem;
   height: auto;
-  margin: 0 auto;
+  margin: 0;
   }
 
 .contact-page .contact {
@@ -200,6 +200,15 @@ body.contact-page {
   background: linear-gradient(135deg, #fff0ff, #ed63cf);
 
 }
+
+.contact-page .footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  position: relative;
+}
+
 
 /* MOBILE FIXES */
 @media (max-width: 768px) {
