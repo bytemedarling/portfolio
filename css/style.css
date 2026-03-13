@@ -116,6 +116,10 @@ body.contact-page {
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
 }
 
+.contact-wrapper {
+  display: flex;
+  align-items: left;
+}
 .contact-page .form h2 {
   text-align: center;
   margin-bottom: 1.5rem;
