@@ -101,6 +101,11 @@ body.contact-page {
   background-color: transparent;
 }
 
+.contact-page .contact {
+  text-align: center;
+  font-family: 'Bungee', sans-serif;
+}
+
 .contact-page .form {
   max-width: 600px;
   margin: 2rem auto;
