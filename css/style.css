@@ -93,9 +93,13 @@ body.contact-page {
   background: linear-gradient(135deg, #f8d7ff, #c2e9fb, #d0f0c0);
 }
 
+.content-page .header, h1 {
+  text-align: center;
+}
+
 .contact-page .logo {
   text-decoration: none;
-  text-align: left;
+  justify-content: center;
   max-width: 12.5rem;
   height: auto;
   background-color: transparent;
@@ -121,7 +125,11 @@ body.contact-page {
   justify-content: left;
   align-items: flex-start;
   gap: 2rem;
+  padding: 2rem;
 }
+
+.content-page 
+
 .contact-page .form h2 {
   text-align: center;
   margin-bottom: 1.5rem;
