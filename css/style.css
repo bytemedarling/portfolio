@@ -93,8 +93,8 @@ body.contact-page {
   left: 0;
   width: 100%;
   padding: 10px 20px;
-   display: flex;
-  justify-content: space-between; /* logo left, hamburger right */
+  display: flex;
+  justify-content: center; /* logo left, hamburger right */
   align-items: center;
   z-index: 10;
 }
