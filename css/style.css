@@ -128,7 +128,9 @@ body.contact-page {
   padding: 2rem;
 }
 
-.content-page 
+.content-page .form-wrapper {
+  flex: 1;
+}
 
 .contact-page .form h2 {
   text-align: center;
