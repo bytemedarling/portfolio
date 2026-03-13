@@ -202,48 +202,57 @@ body.contact-page {
 }
 
 /* Responsive */
-@media (max-width: 1024px) {
-  .contact-page .contact-wrapper {
-    gap: 2rem;
-    padding: 1.5rem;
-  }
-
-  .contact-page .contact-form {
-    max-width: 100%;
-  }
-} /* iPad Styling */
-
+/* MOBILE FIXES */
 @media (max-width: 768px) {
+
+  /* Reduce giant body padding */
+  body.contact-page {
+    padding: 40px 20px;
+  }
+
+  /* Stack layout */
   .contact-page .contact-wrapper {
     flex-direction: column;
     text-align: center;
-    padding: 1.5rem;
+    padding: 1rem;
   }
 
+  /* Contact info spacing */
   .contact-page .contact-info {
     margin-bottom: 2rem;
   }
 
+  /* Form full width */
   .contact-page .contact-form {
     width: 100%;
+    max-width: 100%;
+    padding: 1.25rem;
     margin: 0 auto;
   }
 
+  /* Inputs fit container */
+  .contact-page .contact-form input,
+  .contact-page .contact-form textarea {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Button full width */
   .contact-page .contact-form button {
     width: 100%;
   }
 }
 
-/* ============================
-   SMALL MOBILE (iPhone SE)
-   ============================ */
+/* SMALL MOBILE */
 @media (max-width: 480px) {
-  .contact-page .contact-wrapper {
-    padding: 1rem;
+
+  body.contact-page {
+    padding: 20px 10px;
   }
 
   .contact-page .contact-form {
-    padding: 1.25rem;
+    padding: 1rem;
   }
 
   .contact-page .contact-form input,
