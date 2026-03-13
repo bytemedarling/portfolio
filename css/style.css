@@ -102,8 +102,8 @@ body.contact-page {
   justify-content: center;
   max-width: 12.5rem;
   height: auto;
-  background-color: transparent;
-}
+  margin: 0 auto;
+  }
 
 .contact-page .contact {
   text-align: left;
