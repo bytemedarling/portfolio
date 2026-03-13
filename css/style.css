@@ -22,7 +22,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px;
+  padding: 10px 20px;
   display: flex;
   justify-content: space-between; 
   align-items: center;
@@ -31,6 +31,7 @@
 
 .menu-wrapper {
   margin-right: 70px;
+  margin-top: -5px;
 }
 
 .menu-button {
@@ -99,8 +100,8 @@ body.contact-page {
 }
 
 .contact-page .logo {
-  text-decoration: none;
   justify-content: left;
+  margin-top: -5px;
   max-width: 12.5rem;
   height: auto;
   margin: 0;
