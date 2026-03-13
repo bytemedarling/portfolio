@@ -91,7 +91,7 @@
 /* ----- Contact Page ----- */
 body.contact-page {
   background: linear-gradient(135deg, #f8d7ff, #c2e9fb, #d0f0c0);
-  padding: 120px;
+  padding: 160px;
 }
 
 .contact-page .header, h1 {
@@ -201,7 +201,6 @@ body.contact-page {
 
 }
 
-/* Responsive */
 /* MOBILE FIXES */
 @media (max-width: 768px) {
 
@@ -248,7 +247,9 @@ body.contact-page {
 @media (max-width: 480px) {
 
   body.contact-page {
-    padding: 20px 10px;
+    padding-top: 120px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .contact-page .contact-form {
