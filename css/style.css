@@ -122,14 +122,17 @@ body.contact-page {
 
 .contact-page .contact-wrapper {
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
   align-items: flex-start;
-  gap: 2rem;
+  gap: 3rem;
   padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.contact-page .contact-form {
+.contact-page .contact-info {
   flex: 1;
+  font-family: 'Bungee', sans-serif;
 }
 
 .contact-page .contact-form h2 {
