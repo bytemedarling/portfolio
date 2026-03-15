@@ -232,6 +232,38 @@ body.project-page {
   padding: 160px 20px 40px 20px;
 }
 
+.project-page .menu-wrapper { 
+  display: flex;
+  align-items: center;
+  margin-right: 70px;
+  margin-top: -5px;
+}
+
+.project-page .menu-button {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  z-index: 11;
+}
+/* Hidden navigation menu */
+.project-page .main-nav {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 40px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 10px;
+  z-index: 20;
+}
+
+.project-page .main-nav.open {
+  display: flex;
+}
+
 .project-page .footer {
   text-align: center;
   padding: 20px;
