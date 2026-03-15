@@ -3,9 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!----------- Title ------------>
+    <title>Projects</title>
+    <!----------- Added Fonts ----------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <!----------- CSS Link ----------->
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+
+<body class="project-page">
+    <!----------- Header ----------->
+   <header class="header">
+        <h1 class="logo"></h1>
+
+    <!-- Hamburger Button -->
+        <div class="menu-wrapper">
+            <button class="menu-button" id="menuButton">☰</button>
+        </div>
+
+    <!-- Navigation Menu (hidden until toggled) -->
+        <nav class="main-nav" id="mainNav">
+            <a href="#about">About</a>
+            <a href="./projects.html">Projects</a>
+            <a href="#tools">Tech Stack</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!----------- Projects Section ----------->
+        <section id="projects" class="projects">
+            <h2 class="project-list">Projects</h2>
+
+    <!----------- Card One ------------>
+            <div class="project-card">
+                <div class="project-one"></div>
+                <h3>Borough Bean Co.</h3>
+                <p>A responsive ficticious business website built with HTML, CSS, and JavaScript.</p>
+            </div>
+    <!----------- Card Two ----------->
+            <div class="project-card">
+                <div class="project-two"></div>
+                <h3>Affirmation Generator</h3>
+                <p>A random affirmation generator created with JavaScript and CSS.</p>
+            </div>
+    <!----------- Card Three ----------->
+            <div class="project-card">
+                <div class="project-three"></div>
+                <h3>Style Guide</h3>
+                <p>A comprehensive style guide that outlines design principles and component specifications.</p>
+            </div>
+
+        </section>
     
 </body>
 </html>
