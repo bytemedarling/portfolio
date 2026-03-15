@@ -227,7 +227,7 @@ body.contact-page {
 }
 
 /* ----- Project Page ----- */
-body.contact-page {
+body.project-page {
   background: linear-gradient(135deg, #f8d7ff, #c2e9fb, #d0f0c0);
   padding: 160px 20px 40px 20px;
 }
