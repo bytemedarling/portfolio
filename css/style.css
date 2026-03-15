@@ -264,9 +264,10 @@ body.project-page {
   display: flex;
 }
 
-.project-page .projects-header {
-  margin: 20px;
+body .project-page {
+  padding-top: 160px;
 }
+
 
 .project-page .footer {
   text-align: center;
