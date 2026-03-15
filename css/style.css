@@ -80,6 +80,13 @@
   transform: translateX(-50%) scale(1.05);
 }
 
+.footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  position: relative;
+}
+
 /* ----- Contact Page ----- */
 body.contact-page {
   background: linear-gradient(135deg, #f8d7ff, #c2e9fb, #d0f0c0);
