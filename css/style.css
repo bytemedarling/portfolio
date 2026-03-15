@@ -264,12 +264,22 @@ body.project-page {
   display: flex;
 }
 
+.project-page .projects-header {
+  margin: 20px;
+}
+
 .project-page .footer {
   text-align: center;
   padding: 20px;
   background-color: #333;
   color: white;
   position: relative;
+}
+
+.project-page .projects-header {
+  position: absolute;
+  padding: 10px 20px;
+  display: flex;
 }
 
 /* Responsive Design Below */
