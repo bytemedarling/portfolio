@@ -19,7 +19,6 @@
 /* Hamburger Menu */
 .header {
   position: absolute;
-  top: 20px;
   left: 0;
   width: 100%;
   padding: 10px 20px;
@@ -84,14 +83,14 @@
 /* ----- Contact Page ----- */
 body.contact-page {
   background: linear-gradient(135deg, #f8d7ff, #c2e9fb, #d0f0c0);
-  padding: 160px;
+  padding: 160px 20px 40px 20px;
 }
-
+/*
 .contact-page .header div {
   flex: 1;
   display: flex;
   justify-content: center;
-}
+} */
 
 .contact-page .header, h1 {
   text-align: center;
@@ -160,7 +159,7 @@ body.contact-page {
 }
 /* Contact Form */
 .contact-page .contact-form {
-  flex: 1;
+  max-width: 450px;
   background: rgba(255, 255, 255, 0.25);
   padding: 2rem;
   border: 2px solid #fff;
