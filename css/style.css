@@ -19,12 +19,12 @@
 /* Hamburger Menu */
 .header {
   position: absolute;
-  top: 0;
+  top: 20px;
   left: 0;
   width: 100%;
   padding: 10px 20px;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
   z-index: 10;
 }
@@ -85,18 +85,6 @@
 body.contact-page {
   background: linear-gradient(135deg, #f8d7ff, #c2e9fb, #d0f0c0);
   padding: 160px;
-}
-
-.contact-page .header {
-  position: absolute;
-  top: 20px;
-  left: 0;
-  width: 100%;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: center; /* logo left, hamburger right */
-  align-items: center;
-  z-index: 10;
 }
 
 .contact-page .header div {
