@@ -226,8 +226,21 @@ body.contact-page {
   position: relative;
 }
 
+/* ----- Project Page ----- */
+body.contact-page {
+  background: linear-gradient(135deg, #f8d7ff, #c2e9fb, #d0f0c0);
+  padding: 160px 20px 40px 20px;
+}
 
-/* Responsive */
+.project-page .footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  position: relative;
+}
+
+/* Responsive Design Below */
 @media (max-width: 768px) {
   body.contact-page {
     padding: 40px 20px;
