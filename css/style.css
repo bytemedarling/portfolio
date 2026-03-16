@@ -7,6 +7,7 @@ html {
 }
 body.retro {
   padding-top: 0 !important;
+  margin-top: 0 !important;
 }
 /* UNIVERSAL HEADER (ALL PAGES) */
 .header,
@@ -79,8 +80,9 @@ body.project-page, body.techstack-page {
   background-repeat: no-repeat;
 
   min-height: 100vh;
-  width: auto;
+  width: 100%;
   position: relative;
+  margin: 0;
   padding: 0;
 }
 
