@@ -169,6 +169,7 @@ body.project-page {
   font-size: 1.1rem;
   font-weight: bold;
   transition: 0.3s ease;
+  text-align: center;
 }
 
 .contact-page .contact-form button:hover {
