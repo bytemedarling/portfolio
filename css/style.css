@@ -1,14 +1,87 @@
+/* GLOBAL BACKGROUND   */
 html {
   background: linear-gradient(135deg, #f8d7ff, #c2e9fb, #d0f0c0);
 }
 
-/* Hero Banner */
+body {
+  margin: 0;
+  padding: 0;
+  background: none;
+  font-family: sans-serif;
+}
+
+/* -------------------------------------- */
+/* UNIVERSAL HEADER (ALL PAGES)           */
+.header,
+.projects-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+
+  display: flex;
+  justify-content: center;   /* centers logo */
+  align-items: center;
+  z-index: 10;
+}
+
+/* Logo */
+.logo {
+  max-width: 50rem;
+  width: 100%;
+  height: auto;
+}
+
+/* Hamburger button */
+.menu-wrapper {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.menu-button {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  z-index: 11;
+}
+
+/* -------------------------------------- */
+/* NAV MENU (dropdown)                    */
+.main-nav {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 10px;
+  z-index: 20;
+}
+
+.main-nav.open {
+  display: flex;
+}
+
+/* -------------------------------------- */
+/* PAGE SPACING (push content down)       */
+body.contact-page,
+body.project-page,
+body.retro {
+  padding-top: 180px; /* adjust if logo grows */
+}
+
+/* -------------------------------------- */
+/* HERO BANNER (INDEX PAGE)               */
 .hero {
   background-image: url(../images/earlyweb.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: auto;
   min-height: 100vh;
   padding: 0 20px;
   position: relative;
@@ -20,50 +93,7 @@ html {
   }
 }
 
-/* Hamburger Menu */
-.header {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 10;
-}
-
-.menu-wrapper {
-  position: absolute;
-  margin-right: 70px;
-  margin-top: -5px;
-}
-
-.menu-button {
-  font-size: 2rem;
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-  z-index: 11;
-}
-/* Hidden navigation menu */
-.main-nav {
-  display: none;
-  flex-direction: column;
-  position: absolute;
-  top: 60px;
-  right: 40px;
-  background: rgba(255, 255, 255, 0.9);
-  padding: 15px;
-  border-radius: 10px;
-  z-index: 20;
-}
-
-.main-nav.open {
-  display: flex;
-}
-
+/* ENTER BUTTON */
 .enter-button {
   position: absolute;
   bottom: 40px;
@@ -86,53 +116,8 @@ html {
   transform: translateX(-50%) scale(1.05);
 }
 
-.footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #333;
-  color: white;
-  position: relative;
-}
-
-/* ----- Contact Page ----- */
-.contact-page .header, h1 {
-  text-align: center;
-}
-
-.contact-page .logo {
-  display: block;
-  max-width: 50rem;
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  }
-
-/* Hamburger button positioning */
-.contact-page .menu-wrapper {
-  margin: 0; 
-  display: flex;
-  align-items: center;
-}
-
-.contact-page .menu-button {
-  margin-top: -5px;
-}
-
-.contact-page .contact {
-  text-align: left;
-  font-family: "Bungee", sans-serif;
-}
-/*
-.contact-page .form {
-  max-width: 600px;
-  margin: 2rem auto;
-  padding: 2rem;
-  background: rgba(255, 255, 255, 0.25);
-  border: 2px solid #fff;  border-radius: 10px;
-  backdrop-filter: blur(6px);
-  box-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
-} */ 
-
+/* -------------------------------------- */
+/* CONTACT PAGE                           */
 .contact-page .contact-wrapper {
   display: flex;
   justify-content: space-between;
@@ -142,14 +127,10 @@ html {
   max-width: 1200px;
   margin: 0 auto;
 }
-/* Contact Info */
+
 .contact-page .contact-info {
   flex: 1;
   font-family: 'Bungee', sans-serif;
-}
-
-.contact-page .contact-info h2 {
-  margin-bottom: 1rem;
 }
 
 .contact-page .contact-info ul {
@@ -160,6 +141,7 @@ html {
 .contact-page .contact-info li {
   margin-bottom: 0.75rem;
 }
+
 /* Contact Form */
 .contact-page .contact-form {
   max-width: 450px;
@@ -169,11 +151,6 @@ html {
   border-radius: 12px;
   backdrop-filter: blur(6px);
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
-}
-
-.contact-page .contact-form h2 {
-  text-align: center;
-  margin-bottom: 1.5rem;
 }
 
 .contact-page .contact-form label {
@@ -203,91 +180,36 @@ html {
   font-size: 1.1rem;
   font-weight: bold;
   transition: 0.3s ease;
-  text-align: center;
 }
 
 .contact-page .contact-form button:hover {
   transform: scale(1.03);
   box-shadow: 0 0 10px #fff;
   background: linear-gradient(135deg, #fff0ff, #ed63cf);
-
-}
-/* Footer */
-.contact-page .footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #333;
-  color: white;
-  position: relative;
 }
 
-/* ----- Project Page ----- */
-.project-page .menu-wrapper { 
-  position: absolute;
-  display: flex;
-  align-items: center;
-  margin-right: 70px;
-  margin-top: -5px;
-}
-
-.project-page .menu-button {
-  font-size: 2rem;
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-}
-/* Hidden navigation menu */
-.project-page .main-nav {
-  display: none;
-  flex-direction: column;
-  position: absolute;
-  top: 60px;
-  right: 40px;
-  background: rgba(255, 255, 255, 0.9);
-  padding: 15px;
-  border-radius: 10px;
-  z-index: 20;
-}
-
-.project-page .main-nav.open {
-  display: flex;
-}
-
-body .project-page {
-  padding-top: 200px;
-}
-
-.project-page .projects-header {
-  position: absolute;
-  top: 0;
-  padding: 10px 20px;
-  display: flex;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 10;
-}
-/* Logo */
+/* -------------------------------------- */
+/* PROJECT PAGE                           */
 .project-page .logo {
   max-width: 50rem;
-  width: 100%;
-  height: auto;
 }
 
-.project-page .footer {
+/* FOOTER                                 */
+.footer {
   text-align: center;
   padding: 20px;
   background-color: #333;
   color: white;
+  width: 100%;
   position: relative;
 }
 
-/* Responsive Design Below */
+/* RESPONSIVE                             */
 @media (max-width: 768px) {
-  body.contact-page {
-    padding: 40px 20px;
+  body.contact-page,
+  body.project-page,
+  body.retro {
+    padding-top: 140px;
   }
 
   .contact-page .contact-wrapper {
@@ -296,48 +218,24 @@ body .project-page {
     padding: 1rem;
   }
 
-  /* Contact info spacing */
-  .contact-page .contact-info {
-    margin-bottom: 2rem;
-  }
-
-  /* Form full width */
   .contact-page .contact-form {
     width: 100%;
-    max-width: 100%;
     padding: 1.25rem;
-    margin: 0 auto;
   }
 
-  /* Inputs fit container */
-  .contact-page .contact-form input,
-  .contact-page .contact-form textarea {
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-  }
-
-  /* Button full width */
-  .contact-page .contact-form button {
-    width: 100%;
+  .menu-wrapper {
+    right: 15px;
   }
 }
 
-/* SMALL MOBILE */
 @media (max-width: 480px) {
-
-  body.contact-page {
+  body.contact-page,
+  body.project-page,
+  body.retro {
     padding-top: 120px;
-    padding-left: 10px;
-    padding-right: 10px;
   }
 
   .contact-page .contact-form {
     padding: 1rem;
-  }
-
-  .contact-page .contact-form input,
-  .contact-page .contact-form textarea {
-    font-size: 0.95rem;
   }
 }
