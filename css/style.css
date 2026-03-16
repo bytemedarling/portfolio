@@ -78,8 +78,9 @@ body.project-page, body.techstack-page {
   background-repeat: no-repeat;
 
   min-height: 100vh;
-  width: 100%;
+  width: 100vh;
   padding: 0;
+  margin: 0;
   position: relative;
   overflow: hidden;
 }
