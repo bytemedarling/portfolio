@@ -198,7 +198,7 @@ body.project-page, body.techstack-page {
   padding: 20px;
   background-color: #333;
   color: white;
-  width: 100%;
+  width: auto;
   position: relative;
 }
 
