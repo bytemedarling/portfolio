@@ -61,7 +61,7 @@ html {
 
 /* PAGE SPACING (push content down)       */
 body.contact-page,
-body.project-page {
+body.project-page, body.techstack-page {
   padding-top: 180px; /* adjust if logo grows */
 }
 
