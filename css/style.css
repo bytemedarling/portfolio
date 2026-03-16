@@ -237,8 +237,7 @@ body.project-page, body.techstack-page {
 
 @media (max-width: 480px) {
   body.contact-page,
-  body.project-page,
-  body.retro {
+  body.project-page {
     padding-top: 120px;
   }
 
