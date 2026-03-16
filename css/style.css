@@ -35,7 +35,7 @@ html {
 .menu-wrapper {
   position: absolute;
   top: 10px;
-  right: 80px;
+  right: 0px;
   margin: 0; 
 }
 
@@ -215,8 +215,7 @@ body.project-page, body.techstack-page {
 /* RESPONSIVE                             */
 @media (max-width: 768px) {
   body.contact-page,
-  body.project-page,
-  body.retro {
+  body.project-page, body.techstack-page {
     padding-top: 140px;
   }
 
