@@ -74,9 +74,12 @@ body.project-page, body.techstack-page {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
   min-height: 100vh;
+  width: 100%;
   padding: 0;
   position: relative;
+  overflow: hidden;
 }
 
 @media (max-width: 768px) {
