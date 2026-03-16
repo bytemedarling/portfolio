@@ -3,13 +3,6 @@ html {
   background: linear-gradient(135deg, #f8d7ff, #c2e9fb, #d0f0c0);
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  background: none;
-  font-family: sans-serif;
-}
-
 /* -------------------------------------- */
 /* UNIVERSAL HEADER (ALL PAGES)           */
 /* UNIVERSAL HEADER */
@@ -72,8 +65,7 @@ body {
 /* -------------------------------------- */
 /* PAGE SPACING (push content down)       */
 body.contact-page,
-body.project-page,
-body.retro {
+body.project-page, {
   padding-top: 180px; /* adjust if logo grows */
 }
 
