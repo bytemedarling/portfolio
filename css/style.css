@@ -277,7 +277,7 @@ body .project-page {
 }
 /* Logo */
 .project-page .logo {
-  max-width: 25rem;
+  max-width: 50rem;
   width: 100%;
   height: auto;
 }
