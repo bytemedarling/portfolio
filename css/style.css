@@ -275,6 +275,12 @@ body .project-page {
   display: flex;
   width: 100%;
 }
+/* Logo */
+.project-page .logo {
+  max-width: 25rem;
+  width: 100%;
+  height: auto;
+}
 
 .project-page .footer {
   text-align: center;
