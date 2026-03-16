@@ -169,6 +169,7 @@ body.project-page, body.techstack-page {
   border-radius: 8px;
   border: 1px solid #ccc;
   font-size: 1rem;
+  justify-content: center;
 }
 
 .contact-page .contact-form button {
