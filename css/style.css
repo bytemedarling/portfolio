@@ -6,8 +6,7 @@ html {
   outline: 1px solid red;
 }
 
-/* UNIVERSAL HEADER (ALL PAGES)           */
-/* UNIVERSAL HEADER */
+/* UNIVERSAL HEADER (ALL PAGES) */
 .header,
 .projects-header {
   position: absolute;
@@ -17,7 +16,7 @@ html {
   padding: 10px 20px;
 
   display: flex;
-  justify-content: center;   /* centers the logo */
+  justify-content: center;
   align-items: center;
   z-index: 10;
 }
@@ -80,7 +79,7 @@ body.project-page, body.techstack-page {
   min-height: 100vh;
   width: auto;
   position: relative;
-  padding: 0 20px;
+  padding: 0;
 }
 /*
 @media (max-width: 768px) {
@@ -196,7 +195,6 @@ body.project-page, body.techstack-page {
   background: linear-gradient(135deg, #fff0ff, #ed63cf);
 }
 
-/* -------------------------------------- */
 /* PROJECT PAGE                           */
 .project-page .logo {
   max-width: 30rem;
