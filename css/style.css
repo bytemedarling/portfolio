@@ -5,7 +5,9 @@ html {
 * {
   outline: 1px solid red;
 }
-
+body .retro {
+  padding-top: 0 !important;
+}
 /* UNIVERSAL HEADER (ALL PAGES) */
 .header,
 .projects-header {
