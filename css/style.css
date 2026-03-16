@@ -229,7 +229,7 @@ body.contact-page {
 /* ----- Project Page ----- */
 body.project-page {
   background: linear-gradient(135deg, #f8d7ff, #c2e9fb, #d0f0c0);
-  padding: 160px 20px 40px 20px;
+  padding: 160px;
 }
 
 .project-page .menu-wrapper { 
@@ -274,6 +274,10 @@ body .project-page {
   padding: 10px 20px;
   display: flex;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
 }
 /* Logo */
 .project-page .logo {
