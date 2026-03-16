@@ -76,7 +76,7 @@ body.project-page, body.techstack-page {
 .hero {
   background-image: url(../images/earlyweb.png);
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
 
   min-height: 100vh;
@@ -86,15 +86,15 @@ body.project-page, body.techstack-page {
   padding: 0;
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .hero {
-    background-size: contain;     /* scale image to fit */
-    background-position: top;     /* keep the top visible */
-    background-repeat: no-repeat; /* prevent tiling */
-    background-color: #f8d7ff;    /* fallback behind transparent areas */
-    min-height: 100vh;            /* still full screen */
+    background-size: contain;     
+    background-position: top;     
+    background-repeat: no-repeat; 
+    background-color: #f8d7ff;    
+    min-height: 100vh;            
   }
-}
+} */
 
 /* ENTER BUTTON */
 .enter-button {
