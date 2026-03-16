@@ -5,7 +5,7 @@ html {
 * {
   outline: 1px solid red;
 }
-body .retro {
+body.retro {
   padding-top: 0 !important;
 }
 /* UNIVERSAL HEADER (ALL PAGES) */
@@ -83,12 +83,6 @@ body.project-page, body.techstack-page {
   position: relative;
   padding: 0;
 }
-/*
-@media (max-width: 768px) {
-  .hero {
-    background-position: center top;
-  }
-} */
 
 @media (max-width: 768px) {
   .hero {
@@ -99,7 +93,6 @@ body.project-page, body.techstack-page {
     min-height: 100vh;            /* still full screen */
   }
 }
-
 
 /* ENTER BUTTON */
 .enter-button {
@@ -124,7 +117,6 @@ body.project-page, body.techstack-page {
   transform: translateX(-50%) scale(1.05);
 }
 
-/* -------------------------------------- */
 /* CONTACT PAGE                           */
 .contact-page .contact-wrapper {
   display: flex;
