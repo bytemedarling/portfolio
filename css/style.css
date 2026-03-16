@@ -1,3 +1,7 @@
+html {
+  background: linear-gradient(135deg, #f8d7ff, #c2e9fb, #d0f0c0);
+}
+
 /* Hero Banner */
 .hero {
   background-image: url(../images/earlyweb.png);
@@ -30,6 +34,7 @@
 }
 
 .menu-wrapper {
+  position: absolute;
   margin-right: 70px;
   margin-top: -5px;
 }
@@ -90,17 +95,6 @@
 }
 
 /* ----- Contact Page ----- */
-body.contact-page {
-  background: linear-gradient(135deg, #f8d7ff, #c2e9fb, #d0f0c0);
-  padding: 160px 20px 40px 20px;
-}
-/*
-.contact-page .header div {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-} */
-
 .contact-page .header, h1 {
   text-align: center;
 }
@@ -228,11 +222,6 @@ body.contact-page {
 }
 
 /* ----- Project Page ----- */
-body.project-page {
-  background: linear-gradient(135deg, #f8d7ff, #c2e9fb, #d0f0c0);
-  padding: 160px;
-}
-
 .project-page .menu-wrapper { 
   position: absolute;
   display: flex;
