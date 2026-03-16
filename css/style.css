@@ -265,13 +265,13 @@ body.project-page {
 }
 
 body .project-page {
-  padding-top: 160px;
+  padding-top: 180px;
 }
 
 .project-page .projects-header {
   position: absolute;
   top: 0;
-  padding: 20px 40px;
+  padding: 10px 20px;
   display: flex;
   width: 100%;
 }
