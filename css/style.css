@@ -32,18 +32,6 @@ html {
 }
 
 /* Hamburger Menu */
-.header {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 10;
-}
-
 .menu-wrapper {
   position: absolute;
   margin-right: 70px;
