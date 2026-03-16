@@ -31,12 +31,23 @@ html {
   margin: 0 auto;
 }
 
-/* Hamburger button (always top-right) */
+/* Hamburger Menu */
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
 .menu-wrapper {
   position: absolute;
-  top: 10px;
-  right: 0px;
-  margin: 0; 
+  margin-right: 70px;
+  margin-top: -5px;
 }
 
 .menu-button {
@@ -45,15 +56,15 @@ html {
   border: none;
   color: white;
   cursor: pointer;
+  z-index: 11;
 }
-
-/* NAV MENU (dropdown)                    */
+/* Hidden navigation menu */
 .main-nav {
   display: none;
   flex-direction: column;
   position: absolute;
   top: 60px;
-  right: 20px;
+  right: 40px;
   background: rgba(255, 255, 255, 0.9);
   padding: 15px;
   border-radius: 10px;
@@ -63,6 +74,7 @@ html {
 .main-nav.open {
   display: flex;
 }
+
 
 /* PAGE SPACING (push content down)       */
 body.contact-page,
