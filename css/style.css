@@ -82,12 +82,23 @@ body.project-page, body.techstack-page {
   position: relative;
   padding: 0 20px;
 }
-
+/*
 @media (max-width: 768px) {
   .hero {
     background-position: center top;
   }
+} */
+
+@media (max-width: 768px) {
+  .hero {
+    background-size: contain;     /* scale image to fit */
+    background-position: top;     /* keep the top visible */
+    background-repeat: no-repeat; /* prevent tiling */
+    background-color: #f8d7ff;    /* fallback behind transparent areas */
+    min-height: 100vh;            /* still full screen */
+  }
 }
+
 
 /* ENTER BUTTON */
 .enter-button {
