@@ -12,6 +12,7 @@ body {
 
 /* -------------------------------------- */
 /* UNIVERSAL HEADER (ALL PAGES)           */
+/* UNIVERSAL HEADER */
 .header,
 .projects-header {
   position: absolute;
@@ -21,23 +22,24 @@ body {
   padding: 10px 20px;
 
   display: flex;
-  justify-content: center;   /* centers logo */
+  justify-content: center;   /* centers the logo */
   align-items: center;
   z-index: 10;
 }
 
 /* Logo */
 .logo {
-  max-width: 50rem;
+  max-width: 30rem;  /* 50rem was too large */
   width: 100%;
   height: auto;
 }
 
-/* Hamburger button */
+/* Hamburger button (always top-right) */
 .menu-wrapper {
   position: absolute;
   top: 10px;
   right: 20px;
+  margin: 0; /* IMPORTANT: remove old margins */
 }
 
 .menu-button {
@@ -46,8 +48,8 @@ body {
   border: none;
   color: white;
   cursor: pointer;
-  z-index: 11;
 }
+
 
 /* -------------------------------------- */
 /* NAV MENU (dropdown)                    */
