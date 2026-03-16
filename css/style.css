@@ -3,7 +3,6 @@ html {
   background: linear-gradient(135deg, #f8d7ff, #c2e9fb, #d0f0c0);
 }
 
-/* -------------------------------------- */
 /* UNIVERSAL HEADER (ALL PAGES)           */
 /* UNIVERSAL HEADER */
 .header,
@@ -22,7 +21,7 @@ html {
 
 /* Logo */
 .logo {
-  max-width: 30rem;  /* 50rem was too large */
+  max-width: 30rem;
   width: 100%;
   height: auto;
 }
@@ -43,8 +42,6 @@ html {
   cursor: pointer;
 }
 
-
-/* -------------------------------------- */
 /* NAV MENU (dropdown)                    */
 .main-nav {
   display: none;
@@ -62,14 +59,12 @@ html {
   display: flex;
 }
 
-/* -------------------------------------- */
 /* PAGE SPACING (push content down)       */
 body.contact-page,
-body.project-page, {
+body.project-page {
   padding-top: 180px; /* adjust if logo grows */
 }
 
-/* -------------------------------------- */
 /* HERO BANNER (INDEX PAGE)               */
 .hero {
   background-image: url(../images/earlyweb.png);
